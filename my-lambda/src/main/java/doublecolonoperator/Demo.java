@@ -30,10 +30,10 @@ public class Demo {
         Calculate m3 = new Calculator()::findMultiply;
         m3.calculate(6,6);
 
-        Calculate r1 = (x,y) -> new Calculator().findremaider(x,y);
+        Calculate r1 = (x,y) -> new Calculator().findRemaider(x,y);
         r1.calculate(30,4);
 
-        Calculate r2 = new Calculator()::findremaider;
+        Calculate r2 = new Calculator()::findRemaider;
         r2.calculate(50,9);
 
         BiFunction<String,Integer,String> fn = (str,i) -> str.substring(i);
