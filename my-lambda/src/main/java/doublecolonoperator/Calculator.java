@@ -9,4 +9,10 @@ public class Calculator {
     public void findMultiply(int x,int y){
         System.out.println("Multiply " + (x*y));
     }
+    public static void findDivision(int x, int y){
+        System.out.println("Division result " + x/y);
+    }
+    public void findremaider(int x, int y){
+        System.out.println("Remainder of the division " + x%y);
+    }
 }
