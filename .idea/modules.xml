@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-Collections-review/my-Collections-review.iml" filepath="$PROJECT_DIR$/my-Collections-review/my-Collections-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-generics/my-generics.iml" filepath="$PROJECT_DIR$/my-generics/my-generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-lambda/my-lambda.iml" filepath="$PROJECT_DIR$/my-lambda/my-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myJavaReview.iml" filepath="$PROJECT_DIR$/myJavaReview.iml" />
+    </modules>
+  </component>
+</project>
