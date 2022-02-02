@@ -13,12 +13,6 @@ public class Demo {
         Calculate s2 = Calculator::findSum;
         s2.calculate(100,35);
 
-        Calculate d1=(x,y) ->Calculator.findDivision(x,y);
-        d1.calculate(25,10);
-
-        Calculate d2=Calculator::findDivision;
-        d2.calculate(30,6);
-
         //Reference to instance method
         Calculate m1 = (x,y) -> new Calculator().findMultiply(x,y);
         m1.calculate(5,6);
@@ -30,12 +24,6 @@ public class Demo {
         Calculate m3 = new Calculator()::findMultiply;
         m3.calculate(6,6);
 
-        Calculate r1 = (x,y) -> new Calculator().findRemaider(x,y);
-        r1.calculate(30,4);
-
-        Calculate r2 = new Calculator()::findRemaider;
-        r2.calculate(50,9);
-
         BiFunction<String,Integer,String> fn = (str,i) -> str.substring(i);
         System.out.println(fn.apply("Developer",6));
 
@@ -44,6 +32,17 @@ public class Demo {
 
         Consumer<Integer> display = i -> System.out.println(i);
         display.accept(20);
+
+        Consumer<Integer> display2 = System.out::println;
+        display2.accept(50);
+
+
+         BiFunction<MyClass,Integer,Double> v2 = MyClass::method;
+
+         BiFunction<String,String,String> v3 = String::concat;
+
+
+
 
 
 

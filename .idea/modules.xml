@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/my-generics/my-generics.iml" filepath="$PROJECT_DIR$/my-generics/my-generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-lambda/my-lambda.iml" filepath="$PROJECT_DIR$/my-lambda/my-lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/myJavaReview.iml" filepath="$PROJECT_DIR$/myJavaReview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streams/streams.iml" filepath="$PROJECT_DIR$/streams/streams.iml" />
     </modules>
   </component>
 </project>

@@ -16,6 +16,7 @@ public class OrangeTest {
         OrangeFormatter simpleFormatter = orange -> "An orange of " + orange.getWeight() + "g";
 //        prettyPrintApple(inventory,simpleFormatter);
 
+
         prettyPrintApple(inventory,orange -> "An orange of " + orange.getWeight() + "g");
 
         System.out.println("*************");
